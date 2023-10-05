@@ -6,10 +6,10 @@ salario = float(input('Digite o salário do comprador: R$'))
 anos = int(input('Digite em quantos anos irá pagar: '))
 prestacoes = anos * 12
 parcela = valorCasa / prestacoes
-print('Isso dará {} prestações de R${} por mes.'.format(prestacoes, parcela))
+print('Isso dará {} prestações de R${:.2f} por mes.'.format(prestacoes, parcela))
 if parcela <= salario * 30 / 100:
-    print('Que BOM!!! você poderá fazer o financiamento.')
+    print('Que BOM!!! você poderá fazer o financiamento.', end=' ')
     print('As prestações não ultrapassam 30% de sua renda que é de R${}'.format(salario * 30 / 100))
 else:
-    print('Financiamento NEGADO!')
+    print('Financiamento NEGADO!', end=' ')
     print('Financie um valor menor ou aumente o periodo de quitação')
