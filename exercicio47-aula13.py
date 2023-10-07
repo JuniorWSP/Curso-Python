@@ -1,1 +1,5 @@
-#Crie um programa que mostre na tela todos os números pares ue estão no intervalo entre 1 e 50.
+#Crie um programa que mostre na tela todos os números pares que estão no intervalo entre 1 e 50.
+print('Os números pares entre 1 e 50 são:')
+for pares in range(1, 51):
+    if (pares % 2 == 0):
+        print(pares)

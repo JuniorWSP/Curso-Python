@@ -4,9 +4,9 @@ from time import sleep
 itens = ('Pedra', 'Papel', 'Tesoura')
 pc = randint(0, 2)
 print('''Suas opções: 
-[1] para PEDRA 
-[2] para PAPEL 
-[3] para TESOURA ''')
+[0] para PEDRA 
+[1] para PAPEL 
+[2] para TESOURA ''')
 jogador = int(input('Qual é a sua jogada? '))
 print('JO')
 sleep(1)
