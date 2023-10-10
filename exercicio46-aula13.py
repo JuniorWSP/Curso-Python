@@ -2,7 +2,7 @@
 #indo de 10 ate 0, com uma pausa de 1 segundo entre eles.
 from time import sleep
 print('Contagem Regressiva!!!')
-for contador in range(10, 0, -1):
+for contador in range(10, -1, -1):
     print(contador)
     sleep(1)
 print('BOM, BOM, BOOOOM!!!')

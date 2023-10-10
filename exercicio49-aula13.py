@@ -4,4 +4,4 @@ n = int(input('Escreva um número: '))
 print('A tabuada de {} número é:'.format(n))
 for tabuada in range(0, 11):
     resposta = tabuada * n
-    print('{} X {} = {}'.format(n, tabuada, resposta))
+    print('{} X {:2} = {:2}'.format(n, tabuada, resposta))
